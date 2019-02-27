@@ -583,7 +583,9 @@
 			'<button class="navigate-right" aria-label="next slide"><div class="controls-arrow"></div></button>' +
 			'<button class="navigate-up" aria-label="above slide"><div class="controls-arrow"></div></button>' +
 			'<button class="navigate-down" aria-label="below slide"><div class="controls-arrow"></div></button>' );
-
+		
+		dom.controltoc = createSingletonNode( dom.wrapper, 'aside', 'control-toc', '<a href="#/toc" class="menu-navicon"></a>');
+		dom.controltoc.setAttribute( 'data-controls-layout', 'up-right' );
 		// Slide number
 		dom.slideNumber = createSingletonNode( dom.wrapper, 'div', 'slide-number', '' );
 
