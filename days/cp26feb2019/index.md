@@ -5,6 +5,20 @@
 ###### (с) МЭИ, АВТИ, ПМ, 26 февраля 2019 года
 
 
+## Схема презентации
+<section id="toc">
+<a href="#/binary-tree">Бинарный поиск</a> </br>
+<a href="#/binary-tree">Бинарное дерево</a> </br>
+<a href="#/derivatives">Деривативы</a> </br>
+<a href="#/applications">Важные применения</a> </br>
+<a href="#/example-1">Пример 1</a> </br>
+<a href="#/example-2">Пример 2</a> </br>
+<a href="#/example-3">Пример 3</a> </br>
+<a href="#/example-4">Пример 4</a> </br>
+<a href="#/example-5">Пример 5</a> </br>
+<a href="#/tasks">Задачи и ссылки</a> </br>
+
+
 ## Проблема
 
 * Пусть у нас есть массив $a_1,a_2,\ldots,a_n$ из $ n $ элементов.
@@ -101,6 +115,7 @@
 
 
 ## Бинарный поиск (псевдокод)
+<section id="binary-search">
 * Дано: массив $ a $ из $ n $ элементов.
 * Надо найти элемент со значением $ b $.
 * Алгоритм:
@@ -204,6 +219,7 @@ int main() {
 
 
 ## Бинарное дерево поиска
+<section id="binary-tree">
 * Элементы массива можно представить в виде дерева.
 # ![](/img/btree.png)
 
@@ -280,7 +296,8 @@ int main() {
 
 
 
-## Деревативы
+## Деривативы
+<section id="derivatives">
 * Однородный двоичный поиск
 * Троичный поиск
 * Интерполирующий поиск
@@ -386,6 +403,7 @@ int exponential_search(T arr[], int size, T key) {
 
 
 ## Важные применения
+<section id="applications">
 * Поиск корней уравнения.
 * Поиск минимумов и максимумов унимодальных функций.
 * Решение интерактивных задач.
@@ -452,6 +470,7 @@ while (r - l > EPS) {
 
 
 ## Пример №1. Отгадай число.
+<section id="example-1">
 https://codeforces.com/gym/101021/problem/A
 * ограничение по времени на тест: _1.0 с_
 * ограничение по памяти на тест: _256 МБ_
@@ -529,6 +548,7 @@ int main() {
 
 
 ## Пример №2. Два торта.
+<section id="example-2">
 https://codeforces.com/problemset/problem/911/B
 * ограничение по времени на тест: _1 секунда_
 * ограничение по памяти на тест: _256 мегабайт_
@@ -613,6 +633,7 @@ int main() {
 
 
 ## Пример №3. Сахир и нубийский рынок.
+<section id="example-3">
 https://codeforces.com/contest/812/problem/C
 
 * ограничение по времени на тест: _2 секунды_
@@ -695,6 +716,7 @@ void solve(std::istream &in, std::ostream &out) {
 
 
 ## Пример №4. Черви
+<section id="example-4">
 https://codeforces.com/contest/474/problem/B
 
 * ограничение по времени на тест: _1 секунда_
@@ -787,6 +809,7 @@ int main( void ) {
 
 
 ## Пример №5. Про таблицу умножения
+<section id="example-5">
 https://codeforces.com/contest/448/problem/D 
 
 * ограничение по времени на тест: _1 секунда_
@@ -852,6 +875,7 @@ int main(){
 
 
 ## Задачи для решения в классе
+<section id="tasks">
 1. https://www.hackerrank.com/challenges/tree-preorder-traversal
 2. https://www.hackerrank.com/challenges/tree-postorder-traversal
 3. https://www.hackerrank.com/challenges/tree-height-of-a-binary-tree
