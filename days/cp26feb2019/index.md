@@ -7,7 +7,7 @@
 
 ## Схема презентации
 <section id="toc">
-<a href="#/binary-tree">Бинарный поиск</a> </br>
+<a href="#/binary-search">Бинарный поиск</a> </br>
 <a href="#/binary-tree">Бинарное дерево</a> </br>
 <a href="#/derivatives">Деривативы</a> </br>
 <a href="#/applications">Важные применения</a> </br>
@@ -48,7 +48,7 @@
         <tr>
             <td>$n \le 10$</td>
             <td>$O(n!)$</td>
-            <td>3628800</td>
+            <td>$3628800$</td>
             <td>`$9*10^{157}$`</td>
             <td>`$4*10^{2567}$`</td>
         </tr>
